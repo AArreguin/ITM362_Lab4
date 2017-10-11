@@ -202,9 +202,75 @@ label {
   display: block;
 }
 
+@media screen and (min-width: 480px) {
+    body, html {
+        min-height: 100%;
+    }
+}
+
 /* ===== LAYOUT STYLES ====== */
+body {
+    font-family: 'Modak', cursive;
+    color: white;
+    background-color: black;
+    background-image: url("http://37.media.tumblr.com/e180a4721bb8973f5bc7a4fd87323f68/tumblr_n633uhdNT81t1p7pjo1_500.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+form{
+    margin: auto;
+    width: 67%;
+    background-color: darkorange;
+    border-style: solid;
+    border-width: 25px;
+    
+    border-color: darkgreen;
+}
+ h1{
+     padding-top: .40em;
+     padding-bottom: .50em;
+     font-size: 30px;
+     text-align: center;
+ }
 
-/* ===== MODULAR STYLES ===== */
+ p{
+     text-align: center;
+     font-size 27px;
+ }
 
-/* ===== STATE STYLES ======= */
+ input{
+     text-align: center;
+     width: 100%;
+     height: 30px;
+     padding: 30px;
+     box-sizing: border-box;
+     font-size: inherit;
+     font-family: inherit;
+     background-color: gray;
+
+ }
+ #input-submit {
+    margin: auto;
+    width: 25%;
+    border: none;
+}
+
+ input[type="email"] {
+    padding-bottom: 10px;
+    border: none;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: 25px;
+    height: 20px;
+    float: left;
+}
+    /* ===== MODULAR STYLES ===== */
+    form li{
+    padding-top: .75em;
+    padding-bottom: .25em;
+}
+    /* ===== STATE STYLES ======= */
 
